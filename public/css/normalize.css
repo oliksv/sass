@@ -570,15 +570,6 @@ tt,
 u,
 ul,
 var,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
 :focus {
   outline: 0;
 }
@@ -903,4 +894,7 @@ input[type='number'] {
 input:-webkit-autofill {
   -webkit-box-shadow: none;
   box-shadow: none;
+}
+.a {
+  text-decoration: none;
 }

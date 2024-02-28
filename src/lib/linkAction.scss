@@ -1,0 +1,23 @@
+@use './var.scss';
+@use './space.scss';
+@mixin linkAction{
+    text-decoration: none;
+    color:var.color('primary');
+    padding-right: calc(space.space(2) + 7px);
+    position: relative;
+    &::after{
+        display: block;
+        content: '';
+        width: 7px;
+        height: 14px;
+        background-image:  url('/svg/arrowAction.svg');
+        background-repeat: no-repeat;
+        margin-left: space.space(2);
+        position: absolute;
+        right: 0;
+        top: calc(50% - 7px);
+
+
+    }
+
+}
